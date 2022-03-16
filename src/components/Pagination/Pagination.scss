@@ -1,0 +1,17 @@
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding: 0 1rem;
+     
+    > li {
+      padding: 1rem;
+      border: 1px solid gray;
+      cursor: pointer;
+    } 
+  
+    .active {
+      background-color: lightblue;
+      cursor: default;
+    }
+  }

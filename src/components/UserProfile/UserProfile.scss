@@ -1,0 +1,30 @@
+.userProfile {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+  
+    &__imgContainer {
+      max-width: 200px;
+      min-width: 100px;
+      margin-right: 2rem;
+  
+      > img {
+        height: fit-content;
+        border-radius: 50%;
+        width: 100%;
+        border: 1px solid gray;
+      }
+    }
+  
+    &__imgLarge {
+      width: 300px;
+      height: 300px;
+    }
+  
+    &__infoContainer {
+      > h4, > p {
+        margin: 0;
+      }
+    }
+  }
